@@ -23,5 +23,4 @@ app.use('/api/chat', require('./routes/char'));
 app.use('/api/messanger', require('./routes/messanger'));
 
 const handler = serverless(app);
-module.exports = handler;
 module.exports = app;
