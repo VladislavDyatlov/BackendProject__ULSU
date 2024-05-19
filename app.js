@@ -21,6 +21,7 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/curs', require('./routes/curs'));
 app.use('/api/chat', require('./routes/char'));
 app.use('/api/messanger', require('./routes/messanger'));
+app.use('/api/chat-gpt', require('./routes/chat-gpt'))
 
 const handler = serverless(app);
 module.exports = app;

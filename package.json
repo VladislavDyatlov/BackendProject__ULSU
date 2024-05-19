@@ -20,6 +20,8 @@
     "jsonwebtoken": "^9.0.2",
     "morgan": "~1.9.1",
     "nodemon": "^3.1.0",
+    "openai": "^4.47.1",
+    "readline-sync": "^1.4.10",
     "serverless-http": "^3.2.0"
   },
   "devDependencies": {
